@@ -2,9 +2,11 @@
 
 Implementation plan and build guide for a fingerprint-gated macOS desk authenticator based on TinyTouch.
 
-**Baseline:** upstream commit `d8ca7701d227daa1201c52b771ed8862749ee589` (2026-07-11)  
-**Recommended v1 mode:** PIV/CCID smart card firmware  
-**Fallback mode:** encrypted helper plus USB HID password typing  
+**Baseline:** upstream commit `d8ca7701d227daa1201c52b771ed8862749ee589` (2026-07-11)
+
+**Recommended v1 mode:** PIV/CCID smart card firmware
+
+**Fallback mode:** encrypted helper plus USB HID password typing
 **Project status:** engineering package; hardware validation still required
 
 > Safety decision: build and validate with normal development flashing first. Secure Boot v2 and flash encryption are a separate, irreversible production-hardening gate because they burn eFuses and change recovery paths.
