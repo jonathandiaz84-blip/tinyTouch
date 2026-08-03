@@ -1,0 +1,7 @@
+flowchart LR
+  F["ZW101\nmatch + template storage"] -->|"3.3 V UART\nunauthenticated"| E["XIAO ESP32-S3\nPIV firmware"]
+  E -->|"USB CCID/PIV"| M["macOS\nCryptoTokenKit / sc_auth / PAM"]
+  E -->|"USB HID\ndummy PIN only"| M
+  U["Explicit shortcut / profile command"] --> A["JD Desk Hub Agent"]
+  A --> W["Work / Creator / Home Assistant workflows"]
+  R["Creator Rail adapter"] --- E

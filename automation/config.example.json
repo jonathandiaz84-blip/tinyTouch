@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "work": [
+      {"type": "shortcut", "name": "JD Work Focus"},
+      {"type": "app", "name": "Codex"},
+      {"type": "app", "name": "Calendar"},
+      {"type": "delay", "seconds": 1},
+      {"type": "url", "url": "https://chatgpt.com/"}
+    ],
+    "creator": [
+      {"type": "shortcut", "name": "JD Creator Scene"},
+      {"type": "app", "name": "Finder"}
+    ]
+  }
+}

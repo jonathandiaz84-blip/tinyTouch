@@ -7,3 +7,8 @@ firmware/tiny_touch_keyboard/secrets.h
 firmware/tiny_touch_smartcard/main/secrets.h
 firmware/tiny_touch_smartcard/build/
 firmware/tiny_touch_smartcard/managed_components/
+firmware/tiny_touch_keyboard/secrets.h
+firmware/tiny_touch_smartcard/main/secrets.h
+firmware/tiny_touch_smartcard/piv_*.pem
+build/
+__pycache__/
